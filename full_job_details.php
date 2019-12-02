@@ -1,6 +1,6 @@
 <?php
 
-	session_start();
+	
 
 	//my local server
 	$host = "localhost";
@@ -8,10 +8,8 @@
 	$dbname= "bugme_issue_tracker";
 	$password="";
 
-	// // $issue=isset($_POST["issue"])?$_POST["issue"]:"";
-	// // $id=""; 
-	// //  $conn;
-	  try {
+	
+	 try {
 
 		 
 		 $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

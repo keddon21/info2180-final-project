@@ -1,0 +1,125 @@
+header {
+    color:white;
+    background-color:black;
+    text-align: left;
+    width: 100%;
+    height:30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 2;
+    padding: 6px 6px 16px 30px;
+    }
+
+body {
+    font-size:15px;
+    /*background:#00000;*/
+    color: #212121;
+    height: 100%;
+    }
+
+.grid {
+    display: grid;
+    grid-template: repeat(6, 100px) / repeat(5, 200px);
+    grid-column-gap:5px;
+    }
+
+/* /* .SideOptions{
+    grid-row: 1 / span 6;
+    grid-column: 1/ span 1;
+    /*position: fixed;*/
+    /* z-index: 1;
+    top: 46px;
+    overflow-x: hidden;
+    color: black;
+    background-color: #dcdfe2; */
+}
+
+/* .SideOptions a{
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    display: block;
+  } */ 
+
+  /* #center{
+      
+      
+  }*/
+
+  #center {
+    grid-column: 2/ span 3;
+    grid-row: 1/ span 6;
+    /*margin-left: 160px; /* Same as the width of the sidenav */
+
+    font-size: 20px; /* Increased text to enable scrolling */
+
+    padding: 0px 10px;}
+
+
+  /* #center 
+  .create_issue {
+      grid-row: 1/ span 1;
+      grid-column: 4 / span 1;
+      color: white;
+      background-color:green;
+  } */
+  
+   /* tr {
+    padding: 10px 10x 10px 10px ;
+}  */
+
+/* th{
+    background-color: rgb(199, 197, 197);
+    color:black;
+} */
+
+.sidenav {
+    grid-row: 1 / span 6;
+
+    grid-column: 1/ span 1;
+
+    height: 100%;
+
+    width: 200px;
+
+    position: fixed;
+
+    z-index: 1;
+
+    top: 62px;
+
+    left: 0;
+
+    background-color: #f7f7f7;
+
+    overflow-x: hidden;
+
+    padding-top: 40px;
+
+    padding-left: 18px;
+
+}
+
+
+
+.sidenav li {
+
+    padding: 6px 8px 6px 16px;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: #292b2c;
+
+    display: block;
+
+}
+
+.sidenav a:hover {
+
+    color: #f1f1f1;}
